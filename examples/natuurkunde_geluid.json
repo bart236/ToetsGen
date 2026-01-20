@@ -1,0 +1,45 @@
+{
+  "name": "Natuurkunde - Geluid en Meting",
+  "description": "Vragen over geluid, snelheid en afstandsberekeningen",
+  "questions": [
+    {
+      "id": "nat001",
+      "question_text": "Een onderzoeksschip doet onderzoek naar de diepte van de zee. De boot zendt een geluidspuls naar de zeebodem. De geluidspuls is 0,8 seconden onderweg.",
+      "question_type": "open",
+      "difficulty": "gemiddeld",
+      "learning_objectives": [
+        {
+          "id": "natuurkunde-geluid-1",
+          "description": "Kan afstand berekenen met geluid, rekening houdend met heen-en-terugtijd",
+          "category": "natuurkunde_geluid"
+        },
+        {
+          "id": "natuurkunde-formules-1",
+          "description": "Kan de formule afstand = snelheid × tijd toepassen",
+          "category": "natuurkunde_berekeningen"
+        }
+      ],
+      "correct_answer": "600 meter (of 0,6 km)",
+      "hints": [
+        "Zoek de geluidssnelheid van zeewater op in de bijlagen (ongeveer 1500 m/s)",
+        "Let op: de geluidspuls gaat naar beneden EN komt terug omhoog",
+        "Gebruik de formule: afstand = snelheid × tijd",
+        "Deel het resultaat door 2 omdat de tijd voor heen en terug is gemeten"
+      ],
+      "explanation": "Stap 1: Geluidssnelheid in zeewater is ongeveer 1500 m/s. Stap 2: Totale afgelegde afstand = 1500 m/s × 0,8 s = 1200 m. Stap 3: Diepte zeebodem = 1200 m ÷ 2 = 600 m (omdat het geluid heen en terug gaat).",
+      "tags": ["natuurkunde", "geluid", "snelheid", "afstand", "echo", "meting"],
+      "sub_questions": [
+        {
+          "label": "a",
+          "question": "Zoek de geluidssnelheid van zeewater op in de bijlagen",
+          "answer": "Ongeveer 1500 m/s"
+        },
+        {
+          "label": "b",
+          "question": "Bereken de diepte van de zeebodem",
+          "answer": "600 meter"
+        }
+      ]
+    }
+  ]
+}

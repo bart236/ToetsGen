@@ -1,0 +1,122 @@
+{
+  "original_question_id": "nat001",
+  "alternatives": [
+    {
+      "id": "nat001_alt1",
+      "question_text": "Een vleermuis gebruikt echolocatie om te jagen. De vleermuis maakt een geluid dat weerkaatst tegen een muur. Na 0,12 seconden hoort de vleermuis de echo terug.",
+      "question_type": "open",
+      "difficulty": "gemiddeld",
+      "learning_objectives": [
+        {
+          "id": "natuurkunde-geluid-1",
+          "description": "Kan afstand berekenen met geluid, rekening houdend met heen-en-terugtijd",
+          "category": "natuurkunde_geluid"
+        },
+        {
+          "id": "natuurkunde-formules-1",
+          "description": "Kan de formule afstand = snelheid × tijd toepassen",
+          "category": "natuurkunde_berekeningen"
+        }
+      ],
+      "correct_answer": "20,4 meter",
+      "hints": [
+        "Zoek de geluidssnelheid in lucht op in de bijlagen (ongeveer 340 m/s)",
+        "Let op: het geluid gaat naar de muur EN komt terug",
+        "Gebruik de formule: afstand = snelheid × tijd",
+        "Deel het resultaat door 2 omdat de gemeten tijd voor heen en terug is"
+      ],
+      "explanation": "Stap 1: Geluidssnelheid in lucht is ongeveer 340 m/s. Stap 2: Totale afgelegde afstand = 340 m/s × 0,12 s = 40,8 m. Stap 3: Afstand tot de muur = 40,8 m ÷ 2 = 20,4 m (omdat het geluid heen en terug gaat).",
+      "tags": ["natuurkunde", "geluid", "snelheid", "afstand", "echo", "echolocatie", "vleermuis"],
+      "sub_questions": [
+        {
+          "label": "a",
+          "question": "Zoek de geluidssnelheid in lucht op in de bijlagen",
+          "answer": "Ongeveer 340 m/s"
+        },
+        {
+          "label": "b",
+          "question": "Bereken de afstand tussen de vleermuis en de muur",
+          "answer": "20,4 meter"
+        }
+      ]
+    },
+    {
+      "id": "nat001_alt2",
+      "question_text": "Een sonar systeem op een onderzeeër detecteert een object. Het sonar systeem zendt een geluidspuls uit die na 1,2 seconden als echo terugkomt.",
+      "question_type": "open",
+      "difficulty": "gemiddeld",
+      "learning_objectives": [
+        {
+          "id": "natuurkunde-geluid-1",
+          "description": "Kan afstand berekenen met geluid, rekening houdend met heen-en-terugtijd",
+          "category": "natuurkunde_geluid"
+        },
+        {
+          "id": "natuurkunde-formules-1",
+          "description": "Kan de formule afstand = snelheid × tijd toepassen",
+          "category": "natuurkunde_berekeningen"
+        }
+      ],
+      "correct_answer": "900 meter",
+      "hints": [
+        "De geluidssnelheid in zeewater is ongeveer 1500 m/s",
+        "De geluidspuls legt twee keer de afstand af (heen en terug)",
+        "Gebruik: afstand = snelheid × tijd",
+        "Vergeet niet te delen door 2"
+      ],
+      "explanation": "Stap 1: Geluidssnelheid in zeewater is 1500 m/s. Stap 2: Totale afgelegde weg = 1500 m/s × 1,2 s = 1800 m. Stap 3: Afstand tot object = 1800 m ÷ 2 = 900 m.",
+      "tags": ["natuurkunde", "geluid", "snelheid", "afstand", "sonar", "onderzeeër"],
+      "sub_questions": [
+        {
+          "label": "a",
+          "question": "Gegeven is dat de geluidssnelheid in zeewater 1500 m/s is. Leg uit waarom het sonar systeem geschikt is voor onderwaterdetectie.",
+          "answer": "Geluid plant zich goed voort in water en kan grote afstanden afleggen"
+        },
+        {
+          "label": "b",
+          "question": "Bereken de afstand tussen de onderzeeër en het object",
+          "answer": "900 meter"
+        }
+      ]
+    },
+    {
+      "id": "nat001_alt3",
+      "question_text": "In een berggebied roept iemand luid. Na 3 seconden hoort de persoon een echo vanaf een tegenoverliggende bergwand.",
+      "question_type": "open",
+      "difficulty": "gemiddeld",
+      "learning_objectives": [
+        {
+          "id": "natuurkunde-geluid-1",
+          "description": "Kan afstand berekenen met geluid, rekening houdend met heen-en-terugtijd",
+          "category": "natuurkunde_geluid"
+        },
+        {
+          "id": "natuurkunde-formules-1",
+          "description": "Kan de formule afstand = snelheid × tijd toepassen",
+          "category": "natuurkunde_berekeningen"
+        }
+      ],
+      "correct_answer": "510 meter",
+      "hints": [
+        "De geluidssnelheid in lucht is ongeveer 340 m/s",
+        "Het geluid moet naar de bergwand en terug",
+        "Bereken eerst de totale afstand die het geluid aflegt",
+        "Deel dan door 2 om de afstand tot de bergwand te vinden"
+      ],
+      "explanation": "Stap 1: Geluidssnelheid in lucht = 340 m/s. Stap 2: Totaal afgelegde afstand = 340 m/s × 3 s = 1020 m. Stap 3: Afstand tot bergwand = 1020 m ÷ 2 = 510 m.",
+      "tags": ["natuurkunde", "geluid", "snelheid", "afstand", "echo", "bergen"],
+      "sub_questions": [
+        {
+          "label": "a",
+          "question": "De geluidssnelheid in lucht is 340 m/s. Noem één factor die deze snelheid kan beïnvloeden.",
+          "answer": "Temperatuur (of: luchtvochtigheid, luchtdruk)"
+        },
+        {
+          "label": "b",
+          "question": "Bereken de afstand tussen de persoon en de bergwand",
+          "answer": "510 meter"
+        }
+      ]
+    }
+  ]
+}
