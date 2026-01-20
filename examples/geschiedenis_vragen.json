@@ -1,0 +1,90 @@
+{
+  "name": "Geschiedenis Vragenbank",
+  "description": "Vragen over Nederlandse en wereldgeschiedenis",
+  "questions": [
+    {
+      "id": "gesch001",
+      "question_text": "In welk jaar begon de Tweede Wereldoorlog?",
+      "question_type": "meerkeuze",
+      "difficulty": "makkelijk",
+      "learning_objectives": [
+        {
+          "id": "geschiedenis-wo2-1",
+          "description": "Kent belangrijke data uit WOII",
+          "category": "wereldoorlog_2"
+        }
+      ],
+      "answers": [
+        {
+          "text": "1914",
+          "is_correct": false,
+          "explanation": "Dit is het begin van de Eerste Wereldoorlog"
+        },
+        {
+          "text": "1939",
+          "is_correct": true,
+          "explanation": "WOII begon op 1 september 1939 met de Duitse invasie van Polen"
+        },
+        {
+          "text": "1940",
+          "is_correct": false,
+          "explanation": "Dit is het jaar waarin Nederland werd bezet"
+        },
+        {
+          "text": "1945",
+          "is_correct": false,
+          "explanation": "Dit is het jaar waarin WOII eindigde"
+        }
+      ],
+      "explanation": "De Tweede Wereldoorlog begon op 1 september 1939 toen Duitsland Polen binnenviel",
+      "tags": ["tweede_wereldoorlog", "datum", "europa"]
+    },
+    {
+      "id": "gesch002",
+      "question_text": "De Gouden Eeuw van Nederland vond plaats in de 17e eeuw.",
+      "question_type": "waar_onwaar",
+      "difficulty": "makkelijk",
+      "learning_objectives": [
+        {
+          "id": "geschiedenis-gouden-eeuw-1",
+          "description": "Kent de periode van de Gouden Eeuw",
+          "category": "nederlandse_geschiedenis"
+        }
+      ],
+      "answers": [
+        {
+          "text": "Waar",
+          "is_correct": true,
+          "explanation": "De Gouden Eeuw was in de 17e eeuw, vooral tussen 1588 en 1702"
+        },
+        {
+          "text": "Onwaar",
+          "is_correct": false,
+          "explanation": "Dit is onjuist, de Gouden Eeuw was wel in de 17e eeuw"
+        }
+      ],
+      "explanation": "De Gouden Eeuw van Nederland vond plaats in de 17e eeuw, een periode van grote welvaart en culturele bloei",
+      "tags": ["gouden_eeuw", "nederland", "17e_eeuw"]
+    },
+    {
+      "id": "gesch003",
+      "question_text": "Wie was de eerste keizer van het Romeinse Rijk?",
+      "question_type": "open",
+      "difficulty": "gemiddeld",
+      "learning_objectives": [
+        {
+          "id": "geschiedenis-romeinen-1",
+          "description": "Kent belangrijke figuren uit de Romeinse tijd",
+          "category": "romeinse_rijk"
+        }
+      ],
+      "correct_answer": "Augustus",
+      "hints": [
+        "Hij was de adoptiefzoon van Julius Caesar",
+        "Hij heette oorspronkelijk Octavianus"
+      ],
+      "explanation": "Augustus (geboren als Octavianus) werd in 27 v.Chr. de eerste keizer van het Romeinse Rijk",
+      "tags": ["romeinse_rijk", "keizer", "oudheid"]
+    }
+  ]
+}

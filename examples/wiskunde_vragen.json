@@ -1,0 +1,119 @@
+{
+  "name": "Wiskunde Vragenbank",
+  "description": "Vragen over verschillende wiskunde onderwerpen",
+  "questions": [
+    {
+      "id": "wisk001",
+      "question_text": "Bereken: 15% van 200",
+      "question_type": "meerkeuze",
+      "difficulty": "makkelijk",
+      "learning_objectives": [
+        {
+          "id": "wiskunde-percentage-1",
+          "description": "Kan percentages berekenen",
+          "category": "rekenen"
+        }
+      ],
+      "answers": [
+        {
+          "text": "20",
+          "is_correct": false,
+          "explanation": "Dit zou 10% zijn"
+        },
+        {
+          "text": "30",
+          "is_correct": true,
+          "explanation": "15% van 200 = 0.15 × 200 = 30"
+        },
+        {
+          "text": "35",
+          "is_correct": false,
+          "explanation": "Dit is te hoog"
+        },
+        {
+          "text": "40",
+          "is_correct": false,
+          "explanation": "Dit zou 20% zijn"
+        }
+      ],
+      "explanation": "Om 15% van 200 te berekenen: 200 × 0.15 = 30",
+      "tags": ["percentage", "rekenen", "basis"]
+    },
+    {
+      "id": "wisk002",
+      "question_text": "Los de vergelijking op: 3x - 7 = 14",
+      "question_type": "open",
+      "difficulty": "gemiddeld",
+      "learning_objectives": [
+        {
+          "id": "wiskunde-algebra-2",
+          "description": "Kan lineaire vergelijkingen oplossen",
+          "category": "algebra"
+        }
+      ],
+      "correct_answer": "7",
+      "hints": [
+        "Tel eerst 7 op bij beide kanten",
+        "Deel daarna beide kanten door 3"
+      ],
+      "explanation": "3x - 7 = 14 → 3x = 21 → x = 7",
+      "tags": ["algebra", "vergelijkingen", "lineair"]
+    },
+    {
+      "id": "wisk003",
+      "question_text": "Wat is de oppervlakte van een rechthoek met lengte 8 cm en breedte 5 cm?",
+      "question_type": "meerkeuze",
+      "difficulty": "makkelijk",
+      "learning_objectives": [
+        {
+          "id": "wiskunde-meetkunde-1",
+          "description": "Kan oppervlakte van rechthoek berekenen",
+          "category": "meetkunde"
+        }
+      ],
+      "answers": [
+        {
+          "text": "13 cm²",
+          "is_correct": false,
+          "explanation": "Dit is de omtrek gedeeld door 2"
+        },
+        {
+          "text": "26 cm²",
+          "is_correct": false,
+          "explanation": "Dit is de omtrek"
+        },
+        {
+          "text": "40 cm²",
+          "is_correct": true,
+          "explanation": "Oppervlakte = lengte × breedte = 8 × 5 = 40 cm²"
+        },
+        {
+          "text": "80 cm²",
+          "is_correct": false,
+          "explanation": "Dit is twee keer de oppervlakte"
+        }
+      ],
+      "explanation": "Oppervlakte rechthoek = lengte × breedte = 8 × 5 = 40 cm²",
+      "tags": ["meetkunde", "oppervlakte", "rechthoek"]
+    },
+    {
+      "id": "wisk004",
+      "question_text": "Als 5 appels €3,50 kosten, wat is dan de prijs van 1 appel?",
+      "question_type": "open",
+      "difficulty": "gemiddeld",
+      "learning_objectives": [
+        {
+          "id": "wiskunde-verhoudingen-1",
+          "description": "Kan verhoudingen en prijzen berekenen",
+          "category": "rekenen"
+        }
+      ],
+      "correct_answer": "€0,70",
+      "hints": [
+        "Deel de totaalprijs door het aantal appels"
+      ],
+      "explanation": "Prijs per appel = €3,50 ÷ 5 = €0,70",
+      "tags": ["verhoudingen", "rekenen", "praktisch"]
+    }
+  ]
+}
